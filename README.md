@@ -113,31 +113,6 @@ node scripts/importData.js
 
 ---
 
-## 📂 Project Structure
-
-```bash
-compound-management-backend/
-├── config/
-│   └── database.js
-├── models/
-│   └── Compound.js
-├── routes/
-│   └── compounds.js
-├── scripts/
-│   └── importData.js
-├── .env
-├── server.js
-├── package.json
-```
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 ## 🤝 Contributions
 
 Feel free to fork this repository and submit a pull request. Feedback and contributions are welcome!
