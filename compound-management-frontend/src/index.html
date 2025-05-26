@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChemXplorer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An interactive chemical compound exploration system" />
+    <base href="/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <app-root>
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: 'Inter', sans-serif;">
+        <div style="text-align: center;">
+          <h2 style="color: #6366f1; margin-bottom: 1rem;">Loading ChemXplorer...</h2>
+          <div style="width: 50px; height: 50px; border: 5px solid #e2e8f0; border-top-color: #6366f1; border-radius: 50%; margin: 0 auto; animation: spin 1s linear infinite;"></div>
+        </div>
+      </div>
+      <style>
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+      </style>
+    </app-root>
+  </body>
+</html>
